@@ -1,6 +1,7 @@
 call pathogen#infect()
 syntax on
 filetype plugin indent on
+set gfn=monaco
 set number
 set tabstop=2
 set cindent shiftwidth=2
