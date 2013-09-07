@@ -20,6 +20,5 @@ let g:SuperTabRetailCompletionType="context"
 
 :imap <C-f> <Right>
 :imap <C-b> <Left>
-:imap <C-a> <Home>
 :imap <C-e> <End>
 :imap <C-d> <Delete>
