@@ -13,10 +13,13 @@ set noswapfile
 set nocompatible
 set showmatch
 set guioptions-=T
+set expandtab
 
 colorscheme blackboard
 let g:SuperTabRetailCompletionType="context"
-iab vv <%= %><Left><Left><Left>
-iab ee <% %><Left><Left><Left>
 
+:imap <C-f> <Right>
 :imap <C-b> <Left>
+:imap <C-a> <Home>
+:imap <C-e> <End>
+:imap <C-d> <Delete>
