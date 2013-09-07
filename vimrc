@@ -12,6 +12,9 @@ set nobackup
 set noswapfile
 set nocompatible
 set showmatch
+set guioptions-=T
 
 colorscheme blackboard
 let g:SuperTabRetailCompletionType="context"
+iab vv <%= %><Left><Left><Left>
+iab ee <% %><Left><Left><Left>

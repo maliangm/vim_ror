@@ -1,4 +1,7 @@
-cd .vim/bundle
+echo "runtime vimrc" > ~/.vimrc
+cp -R .fonts ~
+rm -rf bundle/*
+cd bundle
 git clone https://github.com/vim-scripts/FuzzyFinder.git
 git clone https://github.com/scrooloose/nerdtree.git
 git clone https://github.com/ervandew/supertab.git
@@ -7,3 +10,4 @@ git clone https://github.com/tpope/vim-rails.git
 git clone https://github.com/tpope/vim-cucumber.git
 git clone https://github.com/vim-scripts/snipMate.git
 git clone https://github.com/vim-scripts/L9.git
+cd ..
