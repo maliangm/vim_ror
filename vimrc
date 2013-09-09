@@ -18,3 +18,5 @@ colorscheme blackboard
 let g:SuperTabRetailCompletionType="context"
 iab vv <%= %><Left><Left><Left>
 iab ee <% %><Left><Left><Left>
+
+:imap <C-b> <Left>
