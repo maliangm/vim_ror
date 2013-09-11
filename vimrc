@@ -14,6 +14,7 @@ set nocompatible
 set showmatch
 set guioptions-=T
 set expandtab
+set cursorline
 
 colorscheme blackboard
 let g:SuperTabRetailCompletionType="context"
