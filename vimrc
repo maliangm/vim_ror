@@ -16,7 +16,7 @@ set guioptions-=T
 set expandtab
 set cursorline
 
-colorscheme blackboard
+colorscheme railscasts
 let g:SuperTabRetailCompletionType="context"
 
 :imap <C-f> <Right>
